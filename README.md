@@ -37,9 +37,12 @@ To get started with the project, follow these steps:
 
 ## Screenshots
 
-![Banner Section](./screenshots/banner.png)
-![Filter Options](./screenshots/filters.png)
-![Capsules Grid](./screenshots/capsules.png)
+![Banner Section](https://github.com/arupadhyay25/Abhishek-Upadhyay-Frontend-Developer/assets/105644684/90a69b41-508b-47ef-a30e-0e312d488980)
+
+![Filter Options](https://github.com/arupadhyay25/Abhishek-Upadhyay-Frontend-Developer/assets/105644684/4c9ffb67-7994-49e9-8329-42bf9611f941)
+
+![Capsules Grid](https://github.com/arupadhyay25/Abhishek-Upadhyay-Frontend-Developer/assets/105644684/78dd68e0-8ea5-4f9b-bbd8-231258bddfaf)
+
 
 ## Contributing
 
