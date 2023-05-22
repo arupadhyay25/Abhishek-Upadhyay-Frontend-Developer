@@ -1,139 +1,59 @@
+# SpaceX Capsules Page
 
-
-# SpaceX Data Sharing App
-
-This project is a React app that allows users to access and search SpaceX data, including information about rockets and capsules. The app fetches data from the SpaceX API and presents it in a user-friendly interface.
+Welcome to the SpaceX Capsules Landing Page repository! This is a React application that displays information about SpaceX capsules and allows users to filter and paginate through the data. The landing page showcases capsules available for exploration and transport.
 
 ## Table of Contents
 
-- [About SpaceX](#about-spacex)
-
-- [Features](#features)
-
 - [Technologies Used](#technologies-used)
-
 - [Getting Started](#getting-started)
-
-- [Usage](#usage)
-
-- [API Authorization](#api-authorization)
-
-- [Testing](#testing)
-
-- [Deployment](#deployment)
-
+- [Features](#features)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
-
-- [License](#license)
-
-## About SpaceX
-
-SpaceX (Space Exploration Technologies Corp.) is a private aerospace manufacturer and space transportation company founded by Elon Musk. They design, manufacture, and launch advanced rockets and spacecraft. More information about SpaceX can be found on their [official website](https://www.spacex.com). They have also open-sourced their data through the [SpaceX API documentation](https://docs.spacexdata.com/).
-
-## Features
-
-- Landing page with a modern and responsive design
-
-- Search form with three filters: status, original launch, and type
-
-- Optimized search query for quick results
-
-- Data grid to display fetched SpaceX data with pagination
-
-- Popup details for each item in the grid
-
-- Authorized REST API for fetching and sending data between SpaceX and the app
-
-- Use of PHP for API authorization
-
-- Jest tests for various components
-
-- Semantic HTML and SEO best practices
+- [Contact](#contact)
 
 ## Technologies Used
 
 - React
-
-- Tailwind CSS (optional, if chosen for styling)
-
-- State Context API (optional, if chosen for state management)
-
-- Redux (optional, if chosen for state management)
-
-- Jest (for testing)
-
-- PHP (for API authorization)
-
-- Node.js and npm (Node Package Manager)
+- Chakra UI
+- Framer Motion
 
 ## Getting Started
 
 To get started with the project, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository: `git clone https://github.com/your-username/spacex-capsules-landing.git`
+2. Navigate to the project directory: `cd spacex-capsules-landing`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000`
 
-```shell
+## Features
 
-git clone https://github.com/your-username/your-repository.git
+- Fetches data from the SpaceX API to display information about capsules.
+- Allows users to filter capsules based on their status, original launch date, and type.
+- Provides pagination functionality to navigate through the capsules.
+- Skeleton loading component is displayed while data is being fetched.
+- Responsive design for optimal viewing on different devices.
 
-```
+## Screenshots
 
-2. Install the dependencies:
-
-```shell
-
-cd your-repository
-
-npm install
-
-```
-
-3. Start the development server:
-
-```shell
-
-npm start
-
-```
-
-4. Open the app in your browser:
-
-```
-
-http://localhost:3000
-
-```
-
-## Usage
-
-Once the app is running, you will see the landing page with the search form and data grid. You can use the search form to filter the data based on the available filters. The data will be displayed in the data grid, and you can click on an item to view detailed information in a popup.
-
-## API Authorization
-
-The app uses a REST API for fetching and sending data between the app and the SpaceX API. API authorization is implemented using PHP. Make sure to provide the necessary authorization details in the API requests to access the SpaceX data.
-
-## Testing
-
-Jest is used for testing various components of the app. You can run the tests using the following command:
-
-```shell
-
-npm test
-
-```
-
-## Deployment
-
-The app can be deployed to a hosting service of your choice. Follow the deployment instructions provided by the hosting service to make the app accessible online.
+![Banner Section](./screenshots/banner.png)
+![Filter Options](./screenshots/filters.png)
+![Capsules Grid](./screenshots/capsules.png)
 
 ## Contributing
 
-Contributions to this project are welcome. If you find any issues or want to add new features, feel free to open a pull request.
+Contributions are welcome! If you have any ideas, improvements, or bug fixes, please open an issue or submit a pull request.
 
-## License
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-feature`.
+3. Make changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin my-feature`.
+5. Open a pull request.
 
-This project is licensed under the [MIT License](LICENSE).
+## Contact
 
----
+If you have any questions, suggestions, or feedback, please feel free to contact me.
 
-Feel free to modify and customize this README file according to your project's specific details.
+- Email: [your-email@example.com](mailto:arupadhyay25@gmail.com)
+- GitHub: [your-username](https://github.com/arupadhyay25)
