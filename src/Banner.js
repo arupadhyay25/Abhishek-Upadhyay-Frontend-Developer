@@ -35,6 +35,7 @@ const Banner = () => {
           textAlign="center"
         >
           CAPSULES
+        </Text>
           <Text
             color="white"
             fontSize={{ base: 'sm', md: 'xl' }}
@@ -44,7 +45,6 @@ const Banner = () => {
           >
             SENDING HUMANS AND CARGO INTO SPACE
           </Text>
-        </Text>
       </motion.div>
       <Flex direction={['column', 'row', 'row']} alignItems="center">
         <Box w={['100%', '50%', '50%']}>

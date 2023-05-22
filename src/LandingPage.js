@@ -1,14 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {
-  Box,
-  Text,
-  Grid,
-  Spinner,
-  Select,
-  Button,
-  Image,
-  Flex,
-} from '@chakra-ui/react';
+import { Box, Text, Grid, Select, Button, Image, Flex } from '@chakra-ui/react';
 import { Loading } from './Loading';
 
 const LandingPage = () => {
@@ -140,39 +131,91 @@ const LandingPage = () => {
           name="status"
           value={filters.status}
           onChange={handleFilterChange}
-          placeholder="All Status"
           mb={[2, 2, 0]}
           mr={[0, 0, 2]}
           variant={'flushed'}
+          colorScheme="black"
         >
-          <option themee value="active">
+          <option
+            value="active"
+            style={{ backgroundColor: 'black', color: 'white' }}
+          >
+            All Status
+          </option>
+          <option
+            value="active"
+            style={{ backgroundColor: 'black', color: 'white' }}
+          >
             Active
           </option>
-          <option value="retired">Retired</option>
+          <option
+            value="retired"
+            style={{
+              backgroundColor: 'black',
+              color: 'white',
+              padding: '20px',
+            }}
+          >
+            Retired
+          </option>
         </Select>
         <Select
           name="originalLaunch"
           value={filters.originalLaunch}
           onChange={handleFilterChange}
-          placeholder="Sort by Original Launch"
           mb={[2, 2, 0]}
           mr={[0, 0, 2]}
           variant={'flushed'}
+          colorScheme="black"
         >
-          <option value="dateAsc">Date (Ascending)</option>
-          <option value="dateDesc">Date (Descending)</option>
+          <option
+            style={{ backgroundColor: 'black', color: 'white' }}
+            value="dateAsc"
+          >
+            Sort by Original Launch
+          </option>
+          <option
+            style={{ backgroundColor: 'black', color: 'white' }}
+            value="dateAsc"
+          >
+            Date (Ascending)
+          </option>
+          <option
+            style={{ backgroundColor: 'black', color: 'white' }}
+            value="dateDesc"
+          >
+            Date (Descending)
+          </option>
         </Select>
+
         <Select
           name="type"
           value={filters.type}
           onChange={handleFilterChange}
-          placeholder="All Types"
           mb={[2, 2, 0]}
           variant={'flushed'}
         >
-          <option value="Dragon 1.0">Dragon 1.0</option>
-          <option value="Dragon 1.1">Dragon 1.1</option>
-          <option value="Dragon 2.0">Dragon 2.0</option>
+          <option style={{ backgroundColor: 'black', color: 'white' }} value="">
+            All Types
+          </option>
+          <option
+            style={{ backgroundColor: 'black', color: 'white' }}
+            value="Dragon 1.0"
+          >
+            Dragon 1.0
+          </option>
+          <option
+            style={{ backgroundColor: 'black', color: 'white' }}
+            value="Dragon 1.1"
+          >
+            Dragon 1.1
+          </option>
+          <option
+            style={{ backgroundColor: 'black', color: 'white' }}
+            value="Dragon 2.0"
+          >
+            Dragon 2.0
+          </option>
           {/* Add more options based on the available types */}
         </Select>
         <Button
